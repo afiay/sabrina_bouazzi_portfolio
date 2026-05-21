@@ -807,7 +807,7 @@ blockquote {
   border-radius: 32px;
   background:
     linear-gradient(145deg, rgba(21,17,13,.16), rgba(21,17,13,.76)),
-    url("assets/atelier-scene.svg");
+    url("assets/raskla-kitchen-pro.png");
   background-position: center;
   background-size: cover;
 }
@@ -1182,4 +1182,105 @@ blockquote {
   }
   .project-media { display: none; }
   a { text-decoration: none; }
+}
+
+
+/* Clean image placement:
+   - Film cover appears only in the selected film project card/dialog.
+   - Set photo appears only in the cinema section as contextual behind-the-scenes material.
+   - Duplicate screenshot variants are intentionally not displayed. */
+.project-card[data-project="film"] .project-media img {
+  object-position: center center;
+}
+
+.cinema-visual img[src$="real-hamdi-jouini-set-poster.jpg"] {
+  object-position: center center;
+}
+
+.image-placement-note {
+  margin-top: .9rem;
+  padding: .85rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: color-mix(in srgb, var(--paper) 70%, transparent);
+  color: var(--muted);
+  font-size: .94rem;
+  font-weight: 760;
+}
+
+
+/* High-quality Atelier Raskla imagery */
+.hero-card img[src$="raskla-shelf-pro.png"] {
+  object-position: center center;
+}
+
+.project-card[data-project="upcyc"] .project-media img {
+  object-position: center center;
+}
+
+.project-card[data-project="heritage"] .project-media img {
+  object-position: center center;
+}
+
+.project-card[data-project="raskla"] .project-media img {
+  object-position: center center;
+}
+
+.atelier-hero {
+  min-height: 620px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.atelier-detail-card {
+  display: grid;
+  grid-template-columns: .92fr 1.08fr;
+  gap: 1rem;
+  margin-bottom: .85rem;
+  padding: .9rem;
+  border: 1px solid rgba(255,250,242,.12);
+  border-radius: 28px;
+  background: rgba(255,250,242,.075);
+  overflow: hidden;
+}
+
+.atelier-detail-card img {
+  width: 100%;
+  min-height: 320px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 22px;
+}
+
+.atelier-detail-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: .4rem;
+}
+
+.atelier-detail-eyebrow {
+  display: inline-block;
+  margin-bottom: .55rem;
+  color: rgba(255,250,242,.62);
+  font-size: .74rem;
+  font-weight: 950;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+
+.atelier-detail-copy h3 {
+  margin-bottom: .5rem;
+  color: var(--white);
+}
+
+.atelier-detail-copy p {
+  margin: 0;
+  color: rgba(255,250,242,.68);
+}
+
+@media (max-width: 960px) {
+  .atelier-detail-card {
+    grid-template-columns: 1fr;
+  }
 }

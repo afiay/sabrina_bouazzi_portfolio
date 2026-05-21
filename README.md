@@ -49,3 +49,28 @@ Recommended real image slots:
 - `assets/project-raskla.svg`
 - `assets/cinema-poster.svg`
 - `assets/atelier-scene.svg`
+
+
+## Clean image placement
+
+This version avoids duplicate display:
+
+- `real-sous-leau-cover.jpg` is used for the film project card and its project detail.
+- `real-hamdi-jouini-set-poster.jpg` is used only in the Cinema section.
+- Duplicate crop variants from the screenshots are not displayed in the public portfolio.
+
+The full Messenger screenshots are intentionally not displayed because they contain private chat UI.
+
+
+## v7 high-quality portfolio
+
+This version integrates the professionally enhanced Atelier Raskla visuals:
+
+- hero image: `raskla-shelf-pro.png`
+- heritage / research card: `raskla-textile-pro.png`
+- Upcyc’Art card: `raskla-table-pro.png`
+- Ateliers Raskla card: `raskla-cabinet-pro.png`
+- Atelier hero background: `raskla-kitchen-pro.png`
+- Atelier detail card: `raskla-table-detail-pro.png`
+
+The portfolio keeps the previously integrated cinema visuals and now uses real project imagery across the main editorial experience.

@@ -2,7 +2,7 @@ window.SABRINA_PROJECTS = {
   film: {
     title: "Court métrage — Hamdi Jouini",
     meta: "Août 2025 · Cinéma",
-    image: "assets/project-film.svg",
+    image: "assets/real-sous-leau-cover.jpg",
     description: "Contribution en assistanat décorateur pour un projet de court métrage, avec une attention portée à la matière, aux accessoires et à la cohérence visuelle du plateau.",
     points: [
       "Décoration de plateau et préparation d’éléments visuels",
@@ -13,10 +13,10 @@ window.SABRINA_PROJECTS = {
   upcyc: {
     title: "Upcyc’Art & Design — Startup Village",
     meta: "Janv.–Fév. 2025 · Exposition",
-    image: "assets/project-upcyc.svg",
-    description: "Participation à une exposition consacrée au design durable, à la récupération créative et à la transformation poétique des matériaux abandonnés.",
+    image: "assets/raskla-table-pro.png",
+    description: "Présentation d’une pièce de mobilier restaurée et mise en scène dans une approche de design durable, de récupération créative et de transformation poétique des objets.",
     points: [
-      "Objets et mobiliers transformés",
+      "Mobilier restauré et remis en scène",
       "Réemploi créatif comme langage plastique",
       "Dialogue entre artisanat, design et écologie"
     ]
@@ -35,8 +35,8 @@ window.SABRINA_PROJECTS = {
   heritage: {
     title: "Design durable & patrimoine tunisien",
     meta: "Décembre 2022 · IFT",
-    image: "assets/project-heritage.svg",
-    description: "Projet autour du patrimoine tunisien, du geste artisanal et du design durable, avec un intérêt pour la mémoire des formes et des matières.",
+    image: "assets/raskla-textile-pro.png",
+    description: "Recherche visuelle autour du patrimoine tunisien, du motif, du textile et du design durable, avec une attention à la mémoire des formes, des matières et des signes.",
     points: [
       "Patrimoine comme matière de création",
       "Objets et signes transformés",
@@ -46,11 +46,11 @@ window.SABRINA_PROJECTS = {
   raskla: {
     title: "Ateliers Raskla",
     meta: "2018—2025 · Atelier",
-    image: "assets/project-raskla.svg",
-    description: "Recyclerie créative de meubles et atelier pluridisciplinaire pour scénographie, architecture, design éthique, costumes, art graphique, BD et court métrage en cours.",
+    image: "assets/raskla-cabinet-pro.png",
+    description: "Atelier pluridisciplinaire de recyclerie créative, scénographie, architecture sensible, design éthique et aménagement intérieur durable, présenté ici à travers des pièces de mobilier et des espaces mis en scène.",
     points: [
-      "Design d’intérieur durable",
-      "Transformation de meubles et objets",
+      "Design d’intérieur durable et mise en espace",
+      "Transformation de meubles, cuisines et objets",
       "Plateforme artistique pluridisciplinaire"
     ]
   }

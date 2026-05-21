@@ -1,13 +1,86 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="820" viewBox="0 0 1100 820">
-  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#10151a"/><stop offset=".42" stop-color="#b66440"/><stop offset="1" stop-color="#626c52"/></linearGradient></defs>
-  <rect width="1100" height="820" fill="url(#g)"/>
-  <circle cx="860" cy="150" r="145" fill="#c99745" opacity=".42"/>
-  <circle cx="190" cy="610" r="210" fill="#fffaf2" opacity=".08"/>
-  <path d="M110 610c152-100 264 42 410-44s250-150 460-36" fill="none" stroke="#fffaf2" stroke-width="8" opacity=".36"/>
-  <rect x="130" y="178" width="252" height="340" rx="22" fill="#15110d" opacity=".38"/>
-  <rect x="450" y="128" width="300" height="430" rx="22" fill="#fffaf2" opacity=".14"/>
-  <rect x="790" y="238" width="150" height="320" rx="22" fill="#15110d" opacity=".28"/>
-  <path d="M170 230l170 240M340 230L170 470M490 180l220 330M710 180L490 510" stroke="#fffaf2" stroke-width="5" opacity=".24"/>
-  <text x="92" y="700" fill="#fffaf2" font-family="Georgia,serif" font-size="64">Screens</text>
-  <text x="96" y="748" fill="#fffaf2" opacity=".64" font-family="Arial,sans-serif" font-size="24">surface · image · mémoire</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="820" viewBox="0 0 1100 820" role="img" aria-labelledby="title desc">
+  <title id="title">Screens - La Fabrique Art Studio</title>
+  <desc id="desc">Poster-style artwork with a vinyl record, heartbeat lines, city silhouette, and La Fabrique lettering on a saffron background.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#000000" flood-opacity=".18"/>
+    </filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2a31b"/>
+      <stop offset=".6" stop-color="#eba11a"/>
+      <stop offset="1" stop-color="#dd9315"/>
+    </linearGradient>
+    <pattern id="grain" width="120" height="120" patternUnits="userSpaceOnUse">
+      <circle cx="18" cy="20" r="1.2" fill="#000000" opacity=".04"/>
+      <circle cx="72" cy="36" r="1.1" fill="#000000" opacity=".035"/>
+      <circle cx="42" cy="84" r="1.3" fill="#000000" opacity=".03"/>
+      <circle cx="94" cy="92" r="1.1" fill="#000000" opacity=".03"/>
+      <circle cx="102" cy="16" r="1.1" fill="#ffffff" opacity=".055"/>
+      <circle cx="16" cy="108" r="1.1" fill="#ffffff" opacity=".05"/>
+      <circle cx="58" cy="62" r="1" fill="#ffffff" opacity=".04"/>
+    </pattern>
+    <clipPath id="baseClip">
+      <rect x="128" y="458" width="844" height="116" rx="6"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1100" height="820" fill="url(#bg)"/>
+  <rect width="1100" height="820" fill="url(#grain)"/>
+
+  <g filter="url(#shadow)">
+    <circle cx="550" cy="175" r="168" fill="#050505"/>
+    <circle cx="550" cy="175" r="152" fill="none" stroke="#242424" stroke-width="2.5"/>
+    <circle cx="550" cy="175" r="140" fill="none" stroke="#202020" stroke-width="2.2"/>
+    <circle cx="550" cy="175" r="128" fill="none" stroke="#272727" stroke-width="2"/>
+    <circle cx="550" cy="175" r="116" fill="none" stroke="#1c1c1c" stroke-width="1.8"/>
+    <circle cx="550" cy="175" r="104" fill="none" stroke="#2b2b2b" stroke-width="1.7"/>
+    <circle cx="550" cy="175" r="92" fill="none" stroke="#1f1f1f" stroke-width="1.5"/>
+    <circle cx="550" cy="175" r="80" fill="none" stroke="#292929" stroke-width="1.4"/>
+    <circle cx="550" cy="175" r="68" fill="none" stroke="#1d1d1d" stroke-width="1.3"/>
+    <circle cx="550" cy="175" r="56" fill="none" stroke="#282828" stroke-width="1.2"/>
+    <circle cx="550" cy="175" r="44" fill="none" stroke="#1f1f1f" stroke-width="1.1"/>
+    <circle cx="550" cy="175" r="27" fill="#f2a31b" stroke="#111111" stroke-width="2"/>
+    <circle cx="550" cy="175" r="7.5" fill="#f7c358" opacity=".95"/>
+  </g>
+
+  <path d="M78 335h78l22-24 18 49 20-92 21 57 17-22h106" fill="none" stroke="#060606" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M742 335h92l19-23 17 44 18-82 19 49 16-19h99" fill="none" stroke="#060606" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g fill="#060606">
+    <rect x="160" y="338" width="26" height="170" rx="4"/>
+    <rect x="914" y="338" width="26" height="170" rx="4"/>
+    <rect x="160" y="494" width="130" height="22" rx="4"/>
+    <rect x="810" y="494" width="130" height="22" rx="4"/>
+  </g>
+
+  <g fill="#060606" clip-path="url(#baseClip)">
+    <rect x="128" y="458" width="844" height="116" rx="6"/>
+    <rect x="156" y="514" width="32" height="60"/>
+    <rect x="196" y="498" width="28" height="76"/>
+    <rect x="234" y="520" width="28" height="54"/>
+    <rect x="270" y="486" width="42" height="88"/>
+    <rect x="320" y="532" width="24" height="42"/>
+    <rect x="350" y="502" width="30" height="72"/>
+    <rect x="386" y="486" width="26" height="88"/>
+    <rect x="420" y="526" width="22" height="48"/>
+    <rect x="450" y="496" width="30" height="78"/>
+    <rect x="488" y="514" width="26" height="60"/>
+    <rect x="520" y="474" width="40" height="100"/>
+    <rect x="568" y="494" width="24" height="80"/>
+    <rect x="598" y="520" width="24" height="54"/>
+    <rect x="628" y="500" width="34" height="74"/>
+    <rect x="668" y="526" width="22" height="48"/>
+    <rect x="698" y="492" width="34" height="82"/>
+    <rect x="738" y="478" width="26" height="96"/>
+    <rect x="770" y="510" width="26" height="64"/>
+    <rect x="804" y="486" width="40" height="88"/>
+    <rect x="852" y="520" width="26" height="54"/>
+    <rect x="886" y="498" width="28" height="76"/>
+    <rect x="922" y="514" width="24" height="60"/>
+  </g>
+
+  <rect x="272" y="360" width="556" height="112" rx="12" fill="#060606"/>
+  <text x="550" y="432" fill="#fffaf2" font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" font-size="70" text-anchor="middle" letter-spacing="3">LA FABRIQUE</text>
+
+  <text x="550" y="710" fill="#060606" font-family="'Arial Black', Impact, sans-serif" font-size="49" text-anchor="middle" letter-spacing="3">COWORKING ARTS STUDIO</text>
 </svg>

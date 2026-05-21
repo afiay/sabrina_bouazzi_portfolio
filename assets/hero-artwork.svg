@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1120" viewBox="0 0 900 1120">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#24160f"/><stop offset=".36" stop-color="#88402a"/><stop offset=".7" stop-color="#d9bd93"/><stop offset="1" stop-color="#626c52"/></linearGradient>
+    <filter id="rough"><feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="4"/><feDisplacementMap in="SourceGraphic" scale="8"/></filter>
+  </defs>
+  <rect width="900" height="1120" fill="url(#bg)"/>
+  <rect x="72" y="72" width="756" height="940" rx="46" fill="#fffaf2" opacity=".075"/>
+  <circle cx="686" cy="196" r="144" fill="#c99745" opacity=".54"/>
+  <circle cx="250" cy="350" r="174" fill="#fffaf2" opacity=".13"/>
+  <path d="M0 760c112-96 210-88 326-38 142 60 218 62 338-28 92-68 152-114 236-92v518H0z" fill="#15110d" opacity=".34"/>
+  <path d="M150 164h190v650H150z" fill="#15110d" opacity=".4"/>
+  <path d="M404 276h260v620H404z" fill="#fffaf2" opacity=".16"/>
+  <path d="M138 820c142-134 248 60 394-60s210-210 332-96" fill="none" stroke="#fffaf2" stroke-opacity=".45" stroke-width="8"/>
+  <path d="M120 1044c170-86 294 48 450-30 122-60 210-64 330-4" fill="none" stroke="#c99745" stroke-opacity=".68" stroke-width="6"/>
+  <g opacity=".36" stroke="#fffaf2" stroke-width="2">
+    <path d="M150 164l514 732M340 164L150 814M404 276l260 620M664 276L404 896"/>
+  </g>
+  <text x="78" y="982" fill="#fffaf2" opacity=".82" font-family="Georgia,serif" font-size="58">matière</text>
+  <text x="78" y="1040" fill="#fffaf2" opacity=".56" font-family="Georgia,serif" font-size="58">mémoire</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="820" viewBox="0 0 1100 820">
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#efe0cb"/><stop offset=".42" stop-color="#b66440"/><stop offset="1" stop-color="#626c52"/></linearGradient></defs>
+  <rect width="1100" height="820" fill="url(#g)"/>
+  <circle cx="860" cy="150" r="145" fill="#15110d" opacity=".42"/>
+  <circle cx="190" cy="610" r="210" fill="#fffaf2" opacity=".08"/>
+  <path d="M110 610c152-100 264 42 410-44s250-150 460-36" fill="none" stroke="#fffaf2" stroke-width="8" opacity=".36"/>
+  <rect x="130" y="178" width="252" height="340" rx="22" fill="#15110d" opacity=".38"/>
+  <rect x="450" y="128" width="300" height="430" rx="22" fill="#fffaf2" opacity=".14"/>
+  <rect x="790" y="238" width="150" height="320" rx="22" fill="#15110d" opacity=".28"/>
+  <path d="M170 230l170 240M340 230L170 470M490 180l220 330M710 180L490 510" stroke="#fffaf2" stroke-width="5" opacity=".24"/>
+  <text x="92" y="700" fill="#fffaf2" font-family="Georgia,serif" font-size="64">Upcyc’Art</text>
+  <text x="96" y="748" fill="#fffaf2" opacity=".64" font-family="Arial,sans-serif" font-size="24">design durable · récupération</text>
+</svg>

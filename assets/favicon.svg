@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#b66440"/><stop offset=".6" stop-color="#c99745"/><stop offset="1" stop-color="#626c52"/></linearGradient></defs>
+  <rect width="120" height="120" rx="36" fill="#15110d"/>
+  <circle cx="60" cy="60" r="42" fill="url(#g)"/>
+  <text x="60" y="73" text-anchor="middle" font-family="Georgia,serif" font-size="43" font-weight="800" fill="#fffaf2">SB</text>
+</svg>

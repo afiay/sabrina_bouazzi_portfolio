@@ -1,0 +1,16 @@
+{
+  "name": "Sabrina Bouazzi Portfolio",
+  "short_name": "Sabrina Bouazzi",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#15110d",
+  "theme_color": "#15110d",
+  "description": "Portfolio artistique de Sabrina Bouazzi",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

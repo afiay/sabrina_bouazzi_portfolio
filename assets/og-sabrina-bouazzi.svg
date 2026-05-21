@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#15110d"/><stop offset=".52" stop-color="#88402a"/><stop offset="1" stop-color="#626c52"/></linearGradient></defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <circle cx="940" cy="120" r="180" fill="#c99745" opacity=".35"/>
+  <path d="M82 482c210-120 342 70 520-40s302-160 520-30" fill="none" stroke="#fffaf2" stroke-width="8" opacity=".38"/>
+  <text x="80" y="226" fill="#fffaf2" font-family="Georgia,serif" font-size="86">Sabrina Bouazzi</text>
+  <text x="84" y="302" fill="#fffaf2" opacity=".78" font-family="Arial,sans-serif" font-size="34">Artiste plasticienne · Scénographe · Design éthique</text>
+  <text x="84" y="364" fill="#fffaf2" opacity=".62" font-family="Arial,sans-serif" font-size="26">Ateliers Raskla · Matière · Cinéma · Mémoire des objets</text>
+</svg>
